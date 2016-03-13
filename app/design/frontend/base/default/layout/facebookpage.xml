@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    <reference name="after_body_start">
+        <block type="core/template" name="after_body_start_script" template="facebookpage/facebookpage.phtml" />
+    </reference>
+    <reference name="left">
+    <block type="core/template" name="test" template="facebookpage/facebookpageplugin.phtml" ></block>
+   </reference>
+
+   </default>
+    
+
+</layout> 

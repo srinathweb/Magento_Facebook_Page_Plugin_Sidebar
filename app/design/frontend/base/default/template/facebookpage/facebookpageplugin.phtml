@@ -1,0 +1,83 @@
+
+<?php
+if(Mage::getStoreConfig('facebookpage/general/fbenable') != ''){
+ 
+   if(Mage::getStoreConfig('facebookpage/general/fbenable')=='1'){
+
+       $fburl=Mage::getStoreConfig('facebookpage/general/fburl');
+
+       $fbwidth = Mage::getStoreConfig('facebookpage/general/fbwidth');
+
+       $fbheight = Mage::getStoreConfig('facebookpage/general/fbheight');
+
+       $fbsmheadr = Mage::getStoreConfig('facebookpage/general/fbsmheadr');
+
+       $fbfaceshow = Mage::getStoreConfig('facebookpage/general/fbfaceshow');
+
+       $fbcoverpic = Mage::getStoreConfig('facebookpage/general/fbcoverpic');
+
+       $adapt = Mage::getStoreConfig('facebookpage/general/adapt');
+
+
+
+//small header
+if($fbsmheadr !='' && $fbsmheadr=='1'){
+  $issmallheader='true';
+
+}
+
+else{
+	$issmallheader='false';
+}
+
+//dataadapt container width
+
+if($adapt !='' && $adapt=='1'){
+  $isadapt='true';
+
+}
+
+else{
+	$isadapt='false';
+}
+
+//cover pic
+if($fbcoverpic !='' && $fbcoverpic=='1'){
+  $isfbcoverpic='true';
+
+}
+
+else{
+	$isfbcoverpic='false';
+}
+
+//facebook frend list
+
+if($fbfaceshow !='' && $fbfaceshow=='1'){
+  $isfbfaceshow='true';
+
+}
+
+else{
+	$isfbfaceshow='false';
+}
+
+
+
+
+?>
+
+<div class="fb-page" data-href="<?php echo $fburl; ?>" data-tabs="timeline" data-small-header="<?php echo $issmallheader; ?>"  data-adapt-container-width="<?php echo $isadapt; ?>" data-hide-cover="<?php echo $isfbcoverpic; ?>" data-show-facepile="<?php echo $isfbfaceshow; ?>" data-width="<?php echo $fbwidth; ?>" data-height="<?php echo $fbheight; ?>" ><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
+
+
+
+
+<?php      
+   }
+
+}
+
+ 
+?>
+
+

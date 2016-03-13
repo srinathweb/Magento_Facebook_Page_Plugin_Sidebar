@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Lkwebtools_Facebookpage</name>
+    <version>1.0.0</version>
+    <stability>devel</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">osl-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The Facebook Page plugin lets you easily embed and promote any Facebook Page on your website. </summary>
+    <description>he Page plugin lets you easily embed and promote any Facebook Page on your website. Just like on Facebook, your visitors can like and share the Page without leaving your site.&#xD;
+&#xD;
+This  extension give you to add facebook page plugin to left sidebar. with all confuguration options facebook supplied</description>
+    <notes>this is first release</notes>
+    <authors><author><name>srinath madusanka</name><user>admin</user><email>madusanka525@gmail.com</email></author></authors>
+    <date>2016-03-13</date>
+    <time>01:16:35</time>
+    <contents><target name="magelocal"><dir name="Lkwebtools"><dir name="Facebookpage"><dir name="Helper"><file name="Data.php" hash="67fb5152c9d647fac933673b70747c28"/></dir><dir name="etc"><file name="adminhtml.xml" hash="39f8962bbfb3a8d81d236c4676b288bd"/><file name="config.xml" hash="ad6f288e4ca40d23371895226b5457dd"/><file name="system.xml" hash="67b620938bc4aa906ef67ed7689923b0"/></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="facebookpage"><file name="facebookpage.phtml" hash="2f54f2343ac1be083bdfb59f3d2c04fc"/><file name="facebookpageplugin.phtml" hash="275aef8dc0296c35acbe88e2b6d1ba95"/></dir></dir><dir name="layout"><file name="facebookpage.xml" hash="309ffbf15b7bfdafbe90302c6d685c63"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Lkwebtools_Facebookpage.xml" hash="977dc62d53d78d2974a8eaf8426cb78d"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
