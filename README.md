@@ -7,6 +7,10 @@ This extension help to show your facebook page on magento store
 
 ![alt tag](http://lkwebtools.com/mage/screenone.png)
 
-##front end
+##front end display with diffrent configurations
+
+##left side bar with cover photo
 ![alt tag](http://lkwebtools.com/mage/screenfour.png)
+
+##left side bar without cover photo with Friend list
 ![alt tag](http://lkwebtools.com/mage/screenthree.png)
