@@ -1,4 +1,6 @@
 # Magento Facebook Page Plugin on Sidebar magento store
+The Page plugin lets you easily embed and promote any Facebook Page on your website. Just like on Facebook, your visitors can like and share the Page without leaving your site
+
 This extension help to show your facebook page on magento store
 #see screenshots below
 
