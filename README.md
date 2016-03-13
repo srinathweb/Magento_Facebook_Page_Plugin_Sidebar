@@ -1,4 +1,4 @@
-# Magento_Facebook_Page_Plugin_Sidebar
+# Magento Facebook Page Plugin on Sidebar magento store
 This extension help to show your facebook page on magento store
 #see screenshots below
 
@@ -7,7 +7,7 @@ This extension help to show your facebook page on magento store
 
 ![alt tag](http://lkwebtools.com/mage/screenone.png)
 
-##front end display with diffrent configurations
+##Frontend Page display with diffrent configurations
 
 ##left side bar with cover photo
 ![alt tag](http://lkwebtools.com/mage/screenfour.png)
