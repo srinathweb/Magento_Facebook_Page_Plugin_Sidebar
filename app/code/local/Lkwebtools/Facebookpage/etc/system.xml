@@ -19,7 +19,7 @@
 -->
 <config>
     <tabs>
-        <facebookpage translate="label" module="modulecreator">
+        <facebookpage translate="label" module="facebookpage">
             <label>Lkwebtools</label>
             <sort_order>5000</sort_order>
         </facebookpage>
